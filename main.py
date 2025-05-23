@@ -3,8 +3,8 @@
 
 import argparse
 import sys
-from rename import ReName
-from reorder import ReOrder
+from ReName import ReName
+from ReOrder import ReOrder
 
 def main():
     parser = argparse.ArgumentParser(description="Utilitaire de gestion des métadonnées et organisation des fichiers musicaux")
